@@ -1,0 +1,16 @@
+{
+  "data_dir": "data/cifar-10/",
+  "save_dir": "saved/1st_train",
+  "train_batch": [1, 2, 3, 4, 5],
+  "device": "cpu",
+  "seed": 2020,
+  "tr_batch_size": 128,
+  "te_batch_size": 128,
+  "learning_rate": 1e-3,
+  "adam_epsilon": 1e-8,
+  "l2_reg":  1e-3,
+  "dropout": 0.2,
+  "split_ratio": 0.2,
+  "epochs": 10,
+  "msg": "put_whatever_you_want_here"
+}
